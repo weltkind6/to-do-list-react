@@ -1,6 +1,7 @@
 import './App.css';
 import React, {useState} from 'react'
 import ToDoForm from "./components/ToDoForm/ToDoForm";
+import ToDoList from "./components/ToDoList/ToDoList";
 
 function App() {
 
@@ -19,8 +20,7 @@ function App() {
                 inputText={inputText}
                 setInputText={setInputText}
             />
-            {todos.map(i => <div>{i}</div>)}
-
+            <ToDoList todos={todos}/>
         </div>
     );
 }

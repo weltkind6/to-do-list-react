@@ -1,0 +1,8 @@
+.todo {
+    margin: 1em;
+    padding: 1em;
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}

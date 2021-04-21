@@ -3,8 +3,9 @@ import React from 'react';
 const ToDoForm = ({todos, setTodos, inputText, setInputText}) => {
 
     const addTaskHandler = () => {
-        setTodos([...todos, inputText])
+        setTodos([...todos, {text: inputText, id: Math.random() * 500}])
         setInputText('')
+        console.log(todos)
     }
     const inputHandler = (e) => {
         setInputText(e.target.value)
@@ -24,6 +25,7 @@ const ToDoForm = ({todos, setTodos, inputText, setInputText}) => {
                 value={inputText}
             />
             <button onClick={addTaskHandler}>+</button>
+
         </div>
     );
 };
