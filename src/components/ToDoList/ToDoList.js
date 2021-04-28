@@ -5,7 +5,7 @@ import './ToDoList.css'
 
 const ToDoList = ({todos, setTodos}) => {
     return (
-        <div>
+        <div className='ToDoList-wrapper'>
             <ul>
                 {todos.map(todo =>
                     <ToDo

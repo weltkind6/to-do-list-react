@@ -1,7 +1,6 @@
 .App {
-    margin-left: 250px;
     width: 600px;
-    border: 1px solid red;
+    margin: 0 auto;
 }
 
 li {
@@ -12,9 +11,19 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
+
 button {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+h1 {
+    color: hsl(80, 70%, 55%);
+    text-shadow: 0 0 2px #fff,
+    -1px -1px 0 hsl(80, 70%, 35%),
+    -2px -2px 1px hsl(80, 70%, 35%),
+    -2px -2px 2px hsl(80, 10%, 15%);
 }

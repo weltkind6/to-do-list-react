@@ -4,12 +4,16 @@ import './ToDoForm.css'
 const ToDoForm = ({todos, setTodos, inputText, setInputText}) => {
 
     const addTaskHandler = () => {
-        setTodos([...todos,
+
+        if (inputText === '') {
+            alert('Enter the task please!')
+        } else setTodos([...todos,
             {
                 text: inputText,
                 id: Math.random() * 500,
                 complete: false
             }])
+
         setInputText('')
     }
     const inputHandler = (e) => {
