@@ -1,5 +1,6 @@
 import React from 'react';
 import ToDo from "./ToDo/ToDo";
+import './ToDoList.css'
 
 
 const ToDoList = ({todos, setTodos}) => {

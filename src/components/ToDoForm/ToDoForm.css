@@ -1,0 +1,30 @@
+.ToDoForm-input {
+    border: none;
+    outline: none;
+    width: 90%;
+    font-size: 1.5em;
+    padding-left: .5em;
+}
+
+::placeholder {
+    opacity: .5;
+}
+
+.ToDoForm-wrapper {
+    border: 5px solid orange;
+    border-radius: 5px;
+    width: 400px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.ToDoForm-button {
+    background-color: deepskyblue;
+    font-size: 1.7em;
+    margin: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}

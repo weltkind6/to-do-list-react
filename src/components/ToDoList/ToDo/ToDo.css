@@ -1,10 +1,9 @@
 .todo {
-    margin: 1em;
-    padding: 1em;
     width: 400px;
-    border: 2px solid #000;
+    border: 2px solid orange;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 1em;
 }
 .completed {
     text-decoration: line-through;

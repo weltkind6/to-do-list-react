@@ -11,16 +11,18 @@ function App() {
 
     return (
         <div className="App">
-            <header>
-                <h1>React App</h1>
-            </header>
-            <ToDoForm
-                todos={todos}
-                setTodos={setTodos}
-                inputText={inputText}
-                setInputText={setInputText}
-            />
-            <ToDoList todos={todos} setTodos={setTodos}/>
+            <div className="App-wrapper">
+                <header>
+                    <h1>React ToDo App</h1>
+                </header>
+                <ToDoForm
+                    todos={todos}
+                    setTodos={setTodos}
+                    inputText={inputText}
+                    setInputText={setInputText}
+                />
+                <ToDoList todos={todos} setTodos={setTodos}/>
+            </div>
         </div>
     );
 }
