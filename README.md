@@ -1,2 +1,2 @@
-# to-do-list-react
-simple toDo List on react
+Simple toDo React list
+Deploy: https://testapp3333.herokuapp.com/
